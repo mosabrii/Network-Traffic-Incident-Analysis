@@ -14,5 +14,5 @@ UDP and ICMP.
 
 - **Initial suspected cause:**  
 The DNS service was not responding on UDP port 53, which resulted in ICMP "destination port unreachable" error messages.
-- **Time observed:**
-The issue was identified during initial investigation after customer reports.
+- **Time observed:**  
+The issue was identified during initial investigation after customer reports. 
