@@ -30,3 +30,6 @@ This action helped restore service availability but is considered a short-term s
 - Apply SYN rate limiting on network devices.
 - Deploy DDoS protection mechanisms.
 - Harden firewall rules to mitigate similar attacks in the future.
+## Evidence
+- Network traffic logs were captured using a packet analysis tool.
+- Full TCP/HTTP logs are provided in the `evidence/HTTP-log.pdf` file.
