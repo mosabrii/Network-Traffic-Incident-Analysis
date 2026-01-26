@@ -1,20 +1,56 @@
 # Network Traffic Incident Analysis
 
-This repository contains practical cybersecurity labs focused on analyzing network traffic during security incidents.
+## Overview
+This repository contains hands-on cybersecurity labs focused on analyzing network traffic during security incidents.
+The projects simulate real-world SOC scenarios involving abnormal traffic patterns, service disruptions, and malicious activity at the network layer.
 
-The labs simulate real-world scenarios that a SOC or Cybersecurity Analyst may encounter, such as network service disruptions, communication failures, and abnormal traffic behavior.
-
-Each folder represents a standalone incident analysis case, including investigation steps, findings, and conclusions based on network data and logs.
+Each lab represents a standalone incident investigation, emphasizing analytical thinking, evidence-based conclusions, and structured reporting rather than tool dependency.
 
 ## Objectives
-- Analyze network traffic during security incidents
-- Identify affected network services and communication issues
-- Understand incident symptoms, root causes, and impacts
-- Practice structured incident reporting and documentation
+- Analyze network traffic captured during security incidents
+- Identify abnormal patterns, attack indicators, and affected services
+- Understand root causes and potential attacker techniques
+- Practice SOC-style incident analysis and documentation
+
+## Incident Scenarios Covered
+The repository includes multiple realistic incident cases, such as:
+- DNS and ICMP communication failures
+- TCP SYN flood and denial-of-service patterns
+- Web brute-force attempts and abnormal HTTP behavior
+- Network-level risks arising from user behavior and social platforms
+
+## Methodology
+Each incident analysis follows a structured investigation approach:
+- Initial symptom identification
+- Traffic inspection and log review
+- Indicator extraction and attack pattern recognition
+- Impact assessment and root cause analysis
+- Documented findings and conclusions
+
+The analysis aligns with SOC workflows and incident response best practices.
 
 ## Lab Structure
-- Each lab is organized in a numbered folder
-- Every lab includes documentation and analysis results
-- Labs are independent and can be reviewed separately
+- Each folder represents an independent incident case
+- Labs are organized in a logical, numbered sequence
+- Every case includes documentation outlining:
+  - Incident context
+  - Observations and findings
+  - Analysis conclusions
 
-This repository is intended for educational and skill-development purposes.
+## Skills Demonstrated
+- Network Traffic Analysis
+- Incident Investigation & Root Cause Analysis
+- SOC Analytical Thinking
+- Log Review and Pattern Recognition
+- Security Documentation and Reporting
+
+## Intended Audience
+This repository is designed for:
+- SOC Analysts (L1/L2)
+- Cybersecurity students and interns
+- Anyone developing incident analysis and blue/purple team skills
+
+## Disclaimer
+- All scenarios are fictional and created for educational purposes
+- No real systems, organizations, or individuals are involved
+- Any resemblance to real incidents is coincidental
