@@ -1,4 +1,4 @@
-# Incident Report – DNS Service Disruption
+# Incident Summary – DNS Service Disruption
 
 ## Executive Summary
 Users were unable to access **www.yummyrecipesforme.com** due to a DNS service failure. Investigation revealed that UDP port 53 was not responding to DNS queries, resulting in ICMP "Destination Port Unreachable" messages. The incident impacted service availability only, with no evidence of compromise.
