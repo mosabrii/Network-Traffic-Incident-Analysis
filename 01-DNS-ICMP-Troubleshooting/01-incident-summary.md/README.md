@@ -23,11 +23,9 @@ Protocols involved:
 
 ---
 
-## Impact Assessment
-**Severity:** Medium  
+## Business Impact
 
-- Website became inaccessible.
-- No data breach or malicious activity detected.
+The DNS failure caused temporary website downtime, directly affecting service availability. No data exposure or security breach was identified. The incident posed moderate operational impact with potential reputational risk due to service interruption.
 
 ---
 
